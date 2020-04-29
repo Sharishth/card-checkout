@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Checkout</title>
+    <meta charset="UTF-8">
+    <meta name="Checkout" content="Card Checkout">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Sharishth Singh">
+    <link rel="stylesheet" href="design/style.css">
+    <link rel="stylesheet" href="design/font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container-1">
+        <div style="text-align: center;" class="box-1 box-1-color">
+            <h1>Your Order</h1>
+            <!---->
+            <table style="margin-left: auto; margin-right: auto;">
+
+                <tr>
+                    <td class="td-left">Chocolate Bar</td>
+                    <td class="td-right">$2.0</td>
+                </tr>
+                <tr>
+                    <td class="td-left">Quantity</td>
+                    <td class="td-right">5</td>
+                </tr>
+                <tr>
+                    <td class="td-left">Total</td>
+                    <td class="td-right">$10</td>
+                </tr>
+                <tr>
+                    <td class="td-left">Tax</td>
+                    <td class="td-right">$1</td>
+                </tr>
+                <tr>
+                    <td class="td-left">Delivery</td>
+                    <td class="td-right">$2</td>
+                </tr>
+                <tr>
+                    <td class="td-left">Grand Total</td>
+                    <td class="td-right">$13</td>
+                </tr>
+            </table>
+            <!---->
+
+        </div>
+        <div style="padding-left: 10%;" class="box-2 box-2-color">
+            <h1 style="text-align: left;">CheckOut</h1>
+
+            <form>
+                <i class="fa fa-cc-visa" aria-hidden="true"></i> <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                <br><br>
+                <select id="cardvendor" style="width: 613px;" name="cards">
+                    <option value="" selected>Select Card Vendor</option>
+                    <option value="master">Mastercard</option>
+                    <option value="maestro">Maestro</option>
+                    <option value="rupay">RuPay</option>
+                </select><br>
+                <input style="margin-bottom: 10px;" type="text" id="name" name="name" placeholder="CARD HOLDER NAME">
+                <input style="margin-left: 8px;" type="password" id="name" name="name" placeholder="CREDIT CARD NUMBER">
+                <br>
+                <label for="date">Expiry Date</label><br>
+                <select name="date">
+                    <option selected>September</option>
+                </select>
+                <select style="margin-left: 8px;" name="date">
+                    <option selected>2022</option>
+                </select>
+                <input style="margin-left: 16.2rem; width: 55px; text-align: right;" type="password" placeholder="CVV"
+                    name="cvv"><label
+                    style="font-size: 1.5rem; margin-left: 10px;color: white; background-color: rgb(0, 209, 0); border-radius: 100%;"
+                    for="cvv">?</label><br>
+                <input class="pay" type="submit" value="Pay Now">
+            </form>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

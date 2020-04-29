@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway&display=swap');
+
+@media(min-width:468px) {
+    .container-1 {
+        display: flex;
+        /*
+      align-items:flex-start;
+      align-items:flex-end;
+      align-items:center;
+      
+      flex-direction:column;
+      */
+        align-items: stretch;
+
+    }
+}
+
+.container-1 {}
+
+.container-1 div {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-top: 10%;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.box-1 {
+    flex: 1;
+    order: 1;
+    align-items: stretch;
+
+}
+
+.box-2 {
+    flex: 2;
+    order: 1;
+    align-items: stretch;
+
+}
+
+.box-1-color {
+    color: white;
+    background-color: #3f72af;
+    margin-left: 10%;
+    border-radius: 9px 0 0px 9px;
+}
+
+.box-2-color {
+    background-color: #dbe2ef;
+    margin-right: 10%;
+    border-radius: 0px 9px 9px 0px;
+
+}
+
+body {
+
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+
+}
+
+select {
+    border-style: solid;
+    border: #dbe2ef;
+    font-size: 1.5em;
+    padding: 4px;
+    margin-bottom: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+input {
+    border-style: none;
+    font-size: 1.5em;
+    padding: 4px;
+    margin-top: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+
+}
+
+/*......................table..........................*/
+table {
+    font-size: 1.5rem;
+}
+
+.td-left {
+    text-align: left;
+
+}
+
+.td-right {
+    text-align: right;
+}
+
+/*......................table..........................*/
+h1 {
+
+    text-align: center;
+}
+
+.pay {
+    border-style: none;
+    background-color: rgb(34, 236, 34);
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 8px;
+    margin-left: 16rem;
+    margin-top: 3rem;
+    padding: 0.5em;
+
+}
